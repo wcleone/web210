@@ -1,0 +1,35 @@
+/* Color Palette
+    Orange #ec8453
+    Sandy Beige #bcaa96
+    Dark Gray #222222
+    Light Gray #d3d4d6
+    Off-White #f6f6f6 */
+body {
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    background-image:  url(placeholder\ images/joanna-kosinska-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
+main {
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2%;
+    border-radius: 25px;
+    }
+
+h1 {font-weight: bolder;
+    font-size: 300%;
+    letter-spacing: 3px}
+
+h2 {font-weight: bolder;
+    font-size: 200%}    
+
+img {border: 3px solid  black}
+
+a {text-decoration: none;
+    color: #ec8453}
+
+
