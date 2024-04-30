@@ -1,70 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume | Cooper Leone</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body class="resume">
-    <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
-        <div id="wrapper">
-        <p id="stars"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></p>
-        <h1 id="title" spellcheck="false">Cooper Leone</h1>
-        <h2 id="job" spellcheck="false">Professional Student</h2>
-      <br>
-      </div>
-
-        <p>I grew up in North Carolina and have lived here my entire life. I am currently a highschool student at Panther Creek Highschool, I am also attending Waketech community college through their CCP program. I enjoy videogames, working out, and playing sports together with my friends.</p>
-  
-      </header>
-
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section>
-        <h2>Featured Projects</h2>
-        <p>View selected projects below.</p>
-
-        <!-- Copy the whole <section> block to add more projects. -->
-        <section>
-          <h3>Spikeball Club</h3>
-          <img src="placeholder images/project2.jpg" alt="spikeball equipment">
-          <p>Currently I am a executive member of the PCHS Spikeball club. I serve my role as vice president by being an event coordinator and active member within the group.</p>
-          <br><a href="https://spikeball.com/" target="_blank">Spikeball Website</a>
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Cooper Leone</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#WEB140">WEB140</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#APCSP">APCSP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead"> <!--https://www.freepik.com/free-photo/black-marbled-background_4138776.htm#query=black%20ice%20texture&position=2&from_view=keyword&track=ais&uuid=50b0747c-94ee-499a-802b-36ac342a2bdc">Image by rawpixel.com on Freepik-->
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">Cooper Leone</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Portfolio Website</h2>
+                        <a class="btn btn-primary" href="#about">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">Full-time student</h2>
+                        <p class="text-white-50">
+                           My name is William Cooper Leone, and I'm a Junior at Panther Creek Highschool that is enrolled in the College and Career Promise program offered by Wake County Technical Community College. Though I don't know exactly what I want to do just yet, I know I want to go into a line of work based around computers.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!-- End of Project block. -->
-      </section>
-
-      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section>
-        <h2>Education</h2>
-
-        <!-- Copy this whole <section> block to add more schools. -->
-        <section>
-          <h3>Panther Creek Highschool - Cary NC</h3>
-          <p>Junior / 11th Grade</p>
-          <p>Currently Enrolled</p>
-          
-          <h3>Waketech Community College</h3>
-          <p>CCP Student</p>
-          <p>Currently Enrolled</p>
+        <!-- Projects-->
+        
+        <section class="projects-section bg-light" id="WEB140">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center text-black mb-4">WEB140</h2>
+                <p class="text-center text-black-50">
+                            For my final project in WEB140, I was tasked with making a website for the made-up company Sprout & Grow. I had gotten an A on the assignment, so I am rather proud of the work I put out.
+                        </p>
+                <!-- Featured Project Row-->
+                <br>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/plants.png" alt="Sprout & Grow Website Preview"></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Sprout & Grow</h4>
+                            <p class="text-black-50 mb-0">Sprout & Grow is a website that I created as a final project for a web design class, it can be found at
+                                <a href="https://wcet.waketech.edu/wcleone/WEB140/sprout&grow/index.html">this link.</a>
+                                This website is lacking in some areas, but overall I regard it as one of my better projects.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/purchase.png" alt="Sprout & Grow Website Preview"></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">The Purchase Page</h4>
+                                    <p class="mb-0 text-white-50">A showcase of all purchasable plants, when scrolling down there is a form that can be used to purchase any of the plants seen above.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/contact.png" alt="Sprout & Grow Website Preview"></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Contact Page</h4>
+                                    <p class="mb-0 text-white-50">One of my personal pages on the entire website, gives out all needed contact info and includes an embedded map.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/index.png" alt="Sprout & Grow Website Preview"></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">The Home Page</h4>
+                                    <p class="mb-0 text-white-50">The home page is the first page you would usually see when loading up the website. It includes a welcome message and a fun plant fact below it.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <br><br><br><br>
+                <h2 class="text-center text-black mb-4" id="APCSP">APCSP Performance Task</h2>
+                <p class="text-center text-black-50">
+                            This performance task is a current project of mine that Ive spent time creating as a final project for APCSP, it can be found at
+                            <a href="https://studio.code.org/projects/applab/gZ4tbZaRRkDmopVDSUAZ4JJWi6YCJIdagCx5eNAuyns">this link.</a>
+                            This website is still currently in development, but so far it is one of my better projects.
+                        </p>
+                <br>
+                <br>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/codeorg.png" alt="..."></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Dart Toss</h4>
+                            <p class="text-black-50 mb-0">The idea for my performance task was a dart board, which calculates your score relative to when you click on the throw button.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
         </section>
-        <!-- End of School block. -->
-      </section>
-
-      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-      <footer>
-        <h2>Let's Keep in Touch!</h2>
-
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
-          <li><a href="mailto:wcleone@my.waketech.edu">wcleone@my.waketech.edu</a></li>
-          <li><a href="https://www.x.com" target="_blank">Twitter</a></li> 
-          <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
-          <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li> 
-        </ul>
-      </footer>
-    </main>
-  </body>
+        
+        <!-- Signup-->
+        
+        <!-- Contact-->
+        <section class="contact-section bg-green">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Address</h4>
+                                <hr class="my-4 mx-auto">
+                                <div class="small text-black"><a href="#!">9101 Fayetteville Rd, Raleigh, NC 27603</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4 mx-auto">
+                                <div class="small text-black"><a href="mailto:">wcleone@my.waketech.edu</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4 mx-auto">
+                                <div class="small text-black"><a href="#!">+1 (123) 456-7890</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center" id="contact">
+                    <a class="mx-2" href="https://x.com"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="https://github.com"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-green small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Cooper Leone 2024</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
